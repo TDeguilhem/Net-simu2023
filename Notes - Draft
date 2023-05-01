@@ -1,0 +1,32 @@
+Sensibilité des cliques politiques à la densité d'un policy network :
+
+# Main issue: la densité dans des policy net est variable mais souvent forte. Hors, la densité affecte l'identification algorithmique :
+
+- faiblesse du paramètre d'optimisation : modularité limité
+- limite de l'équivalence structuale : absence de trous structuraux
+- Emboitement des partitionnements hiérarchiques : faible variance between-group
+
+# Toutefois, existe-t-il un algorithme ou une famille plus efficace que les autres en fonction de la densité dans un policy net ?
+
+# Utilisation de notre méthode sur données de simulation
+
+
+1. Policy net.
+
+- Réviser la littérature et identifier les bornes du nombre d'acteurs traditionnellement utilisé (par défaut baseline: 30-50)
+
+- Réciprocité fixée par défaut à une probabilité de 0.5 (une chance sur deux d'avoir un lien réciproque) : justification
+
+- Fixer un paramètre d'homophilie ? Lien avec ACF...
+
+
+-> Travail sur données de simulation :
+
+Simuler des policy networks avec une densité random (entre 0.1 et 0.7) : 
+
+- Matrice NMI et Indice I pour chaque algo (ceux utilisés dans le PAPIER1)
+
+- Représentation de M, H et I par algo en fonction de la densité
+
+
+
